@@ -5,7 +5,7 @@
 body {
   word-break: keep-all;
   line-height: 1.4;
-  color: #000 !important;
+  color: #222;
   overflow-x: hidden;
 }
 
@@ -34,10 +34,6 @@ h1 {
   letter-spacing: -2.8px;
   line-height: 105px;
   color: #005ffe;
-}
-h1 span {
-  display: block;
-  color: #3973fa;
 }
 .main .inner {
   display: flex;
@@ -80,16 +76,6 @@ h1 span {
   letter-spacing: 0.01em;
   color: #1a1a1a;
 }
-.circle {
-  width: 36px;
-  height: 36px;
-  border-radius: 100%;
-  background: #4a8bf7;
-}
-.highlight {
-  color: #3973fa;
-}
-
 /* ABOUT */
 .textSec {
   display: flex;
