@@ -50,10 +50,6 @@ h1 {
   transform: translateY(30px);
   transition: opacity 1s ease, transform 1s ease;
 }
-.text-box .item.reveal {
-  opacity: 1;
-  transform: translateY(0);
-}
 .main .text-box .s_txt {
   display: block;
   transform: translateY(10px);
@@ -63,9 +59,7 @@ h1 {
   opacity: 0;
   transition: all 0.8s ease;
 }
-.main .text-box .s_txt.reveal {
-  opacity: 1;
-  transform: translateY(0);
+.main .text-box .s_txt.show {
   transition-delay: 0.1s;
 }
 .main .item span {
@@ -182,11 +176,11 @@ section.aboutSec > .inner {
 .reveal {
   opacity: 0;
   transform: translateY(140px);
-  transition: all 0.3s ease-out;
+  transition: all 0.6s ease-out;
 }
-.reveal.show {
-  opacity: 1;
-  transform: translateY(0);
+.show {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
 }
 .stackSec {
   background: var(--yellow);

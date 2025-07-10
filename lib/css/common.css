@@ -279,6 +279,7 @@ section > .inner {
 
 /* footer contact */
 footer.contact {
+  overflow: hidden;
   padding: clamp(30px, 6vw, 80px) clamp(20px, 4vw, 60px) clamp(15px, 3vw, 60px);
   background: var(--blue);
   text-align: center;
