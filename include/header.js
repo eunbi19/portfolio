@@ -36,13 +36,21 @@ const header = `
 document.write(header);
 
 window.addEventListener("DOMContentLoaded", () => {
-  const OnPage = location.pathname.split("/").pop();
+  let OnPage = location.pathname.split("/").pop();
+
+  // 초기 진입일 때 첫 메뉴에 on 추가
+  if (OnPage === "") {
+    OnPage = "index.html";
+  }
+
   const menuLink = document.querySelectorAll(".menu-wrap a");
 
   menuLink.forEach((link) => {
     const href = link.getAttribute("href");
     if (href === OnPage) {
       link.parentElement.classList.add("on");
+    } else {
+      link.parentElement.classList.remove("on");
     }
   });
 });
