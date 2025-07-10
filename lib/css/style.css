@@ -176,6 +176,9 @@ section.aboutSec > .inner {
   text-align: center;
   color: var(--blue);
 }
+.aboutSec .hello {
+  margin-bottom: clamp(25px, 3vw, 35px);
+}
 .reveal {
   opacity: 0;
   transform: translateY(140px);
@@ -184,9 +187,6 @@ section.aboutSec > .inner {
 .reveal.show {
   opacity: 1;
   transform: translateY(0);
-}
-.aboutSec p + p {
-  margin-top: clamp(25px, 3vw, 35px);
 }
 .stackSec {
   background: var(--yellow);
