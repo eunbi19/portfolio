@@ -38,7 +38,7 @@ document.write(header);
 window.addEventListener("DOMContentLoaded", () => {
   let OnPage = location.pathname.split("/").pop();
 
-  // 초기 진입일 때 첫 메뉴에 on 추가
+  // index.html 꺼내기
   if (OnPage === "") {
     OnPage = "index.html";
   }

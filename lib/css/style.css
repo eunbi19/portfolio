@@ -179,7 +179,7 @@ section.aboutSec > .inner {
 .reveal {
   opacity: 0;
   transform: translateY(140px);
-  transition: all 0.6s ease-out;
+  transition: all 0.3s ease-out;
 }
 .reveal.show {
   opacity: 1;
