@@ -27,14 +27,6 @@ body {
 .main {
   height: 100vh;
 }
-h1 {
-  margin-top: 50px;
-  font-size: 110px;
-  font-weight: 800;
-  letter-spacing: -2.8px;
-  line-height: 105px;
-  color: #005ffe;
-}
 .main .inner {
   display: flex;
   align-items: center;

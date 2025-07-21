@@ -1,7 +1,9 @@
 const header = `
 <div class="inner">
         <div class="logo-wrap">
+        <h1>
           <a class="logo" href="index.html">EUNBI'S</a>
+          </h1>
         </div>
         <nav id="nav" class="en">
           <button type="button" id="menubtn">
