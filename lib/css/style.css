@@ -774,9 +774,14 @@ body.popon {
     background: var(--blue);
     color: var(--yellow);
   }
+  .projectSec .list > ul > li:hover,
+  .projectSec .list > ul > li.on {
+    overflow: initial;
+  }
 }
 @media (hover: hover) and (pointer: fine) {
   .projectSec .list > ul > li:hover .exp-box {
+    position: fixed !important;
     opacity: 1;
     visibility: visible;
   }
@@ -790,6 +795,7 @@ body.popon {
     transition: all 0.1s;
   }
   .projectSec .list > ul > li.on .exp-box {
+    position: fixed !important;
     opacity: 1;
     visibility: visible;
   }
