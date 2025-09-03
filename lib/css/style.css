@@ -778,12 +778,12 @@ body.popon {
   .projectSec .list > ul > li.on {
     overflow: initial;
   }
-}
-@media (hover: hover) and (pointer: fine) {
-  .projectSec .list > ul > li:hover .exp-box {
-    position: fixed !important;
-    opacity: 1;
-    visibility: visible;
+  @media (hover: hover) and (pointer: fine) {
+    .projectSec .list > ul > li:hover .exp-box {
+      position: fixed !important;
+      opacity: 1;
+      visibility: visible;
+    }
   }
 }
 
