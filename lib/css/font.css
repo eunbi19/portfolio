@@ -1,0 +1,111 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'OpenSans';
+    src: url(font/OpenSans-Light.woff) format('woff'),
+    url(font/OpenSans-Light.otf) format('otf');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url(font/OpenSans-Regular.woff) format('woff'),
+    url(font/OpenSans-Regular.otf) format('otf');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url(font/OpenSans-Semibold.woff) format('woff'),
+    url(font/OpenSans-Semibold.otf) format('otf');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url(font/OpenSans-Bold.woff) format('woff'),
+    url(font/OpenSans-Bold.otf) format('otf');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url(font/OpenSans-ExtraBold.woff) format('woff'),
+    url(font/OpenSans-ExtraBold.otf) format('otf');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(/font/Roboto-Light.woff) format('woff'),
+    url(/font/Roboto-Light.otf) format('otf');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(/font/Roboto-Regular.woff) format('woff'),
+    url(/font/Roboto-Regular.otf) format('otf');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(/font/Roboto-Medium.woff) format('woff'),
+    url(/font/Roboto-Medium.otf) format('otf');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(/font/Roboto-Semibold.woff) format('woff'),
+    url(/font/Roboto-Semibold.otf) format('otf');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(/font/Roboto-Bold.woff) format('woff'),
+    url(/font/Roboto-Bold.otf) format('otf');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(/font/Roboto-ExtraBold.woff) format('woff'),
+    url(/font/Roboto-ExtraBold.otf) format('otf');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard';
+    src: url(font/Pretendard-Regular.woff) format('woff'),
+    url(font/Pretendard-Regular.woff2) format('woff2'),
+    url(font/Pretendard-Regular.otf) format('otf');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard';
+    src: url(font/Pretendard-Medium.woff) format('woff'),
+    url(font/Pretendard-Medium.woff2) format('woff2'),
+    url(font/Pretendard-Medium.otf) format('otf');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard';
+    src: url(font/Pretendard-Bold.woff) format('woff'),
+    url(font/Pretendard-Bold.woff2) format('woff2'),
+    url(font/Pretendard-Bold.otf) format('otf');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard';
+    src: url(font/Pretendard-ExtraBold.woff) format('woff'),
+    url(font/Pretendard-ExtraBold.woff2) format('woff2'),
+    url(font/Pretendard-ExtraBold.otf) format('otf');
+    font-weight: 700;
+    font-style: normal;
+}
